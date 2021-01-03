@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/css/registro.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+</head>
+
+<body>
+  <div class="master">
+    <header>
+      <a href="home.html">
+        <img src="/craftsy/img/logo.png" alt="logo">
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="home.html">SMARTPHONES</a></li>
+          <li><a href="home.html">TABLETS</a></li>
+          <li><a href="home.html">COMPUTADORAS</a></li>
+        </ul>
+        <ul class="log">
+          <li><a href="login.html">LOGIN</a></li>
+          <li><a href="registro.html">REGISTRO</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <form action="login.html">
+          <div class="form">
+            <h1>REGISTRATE</h1>
+            <div class="registro">
+              <label for="nombre">Nombre</label><br>
+              <input type="nombre" class="texto" id="name" placeholder="name" required="obligatorio">
+            </div>
+            <div class="registro">
+              <label for="email">email</label><br>
+              <input type="email" class="email" id="email" placeholder="email" required="obligatorio">
+            </div>
+            <div class="registro">
+              <label for="password">Contraseña</label><br>
+              <input type="password" class="password" id="password" placeholder="Contraseña" required="obligatorio">
+            </div>
+            <div class="paises">
+              <label for="pais de nacimiento">pais de nacimiento</label><br>
+              <select class="paises" name="pais" id="paises">
+                <option value="ar">Argentina</option>
+                <option value="br">Brasil</option>
+                <option value="ur">Uruguay</option>
+                <option value="uk">Reino Unido</option>
+                <option value="usa">Estados Unidos</option>
+                <option value="es">España</option>
+                <option value="ch">Chile</option>
+
+              </select>
+              <h6>obligatorio</h6>
+            </div>
+
+            <div class="Generos">
+
+              <label for="genero">Genero</label>
+              <input type="radio" name="genero" value="m">Masculino</input>
+              <input type="radio" name="genero" value="f">Femenino</input>
+              <input type="radio" name="genero" value="otro">Prefiero no decirlo</input>
+            </div>
+            <div class="hobbies">
+              <label for="hobbie">hobbie</label>
+              <input type="checkbox" name="hobbie" value="cook">cocinar</input>
+              <input type="checkbox" name="hobbie" value="play">jugar</input>
+              <input type="checkbox" name="hobbie" value="swim">nadar</input>
+              <input type="checkbox" name="hobbie" value="sing">cantar</input>
+            </div>
+            <div class="comentario">
+              <label for="comentario">Dejanos tu comentario</label>
+              <textarea name="comentario" id="comentario"></textarea>
+              <input type="checkbox" name="acepto" value="ok">Acepto terminos y condiciones</input>
+            </div>
+            <div class="buttons">
+              <button type="submit">registrarme</button>
+              <button type="reset">cancelar</button>
+            </div>
+
+
+          </div>
+
+      </div>
+
+      </form>
+
+  </div>
+
+  </main>
+
+  </div>
+</body>
+
+</html>

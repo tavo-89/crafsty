@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+  
+  body {
+    background-image: url("/craftsy/img/bg-2.png");
+    color: rgb(82, 81, 81);
+  }
+  
+  div.master {
+    width: 1140px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  
+  /* HEADER */
+  
+  header {
+    background-color: orangered;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+  }
+  
+  header img {
+    float: left;
+    padding: 13px;
+  }
+  
+  header nav {
+    padding: 7px;
+    overflow: hidden;
+  }
+  
+  header nav ul.menu {
+    float: left;
+    overflow: hidden;
+  }
+  
+  header nav ul.log {
+    float: right;
+    overflow: hidden;
+  }
+  
+  header nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    
+  }
+  
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  div.master header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: all .5s;
+}
+
+div.master header nav ul li a:hover {
+  background-size: 100% 2px;
+}
+
+/* main */
+
+main{
+  
+  width:30%;
+  height: 100%;
+  color: rgb(56, 55, 55);
+  font-family: roboto;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+
+
+input{
+  border: solid 1px rgb(185, 181, 181);
+  margin-top: 4px;
+  width: 100%;
+  padding: 3px;
+  
+}
+
+.registro{
+  margin-top: 15px;
+}
+
+.registro label{
+  
+  font-size: 15px;
+  font-weight: 600;
+  
+}
+
+.paises{
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 25px;
+  padding: 2px;
+  width: 65%;
+  border-radius: 5px;
+  border-color: rgb(185, 181, 181);
+  
+}
+.paises select{
+  font-size: small;
+  width: 75%;
+  height: 25px;
+}
+
+.Generos{
+  
+  padding-top: 20px;
+  
+}
+.Generos label{
+  font-weight: 600;
+}
+
+
+
+.hobbies{
+  width: 100%;
+  margin-top: 15px;
+  
+}
+.hobbies label{
+  
+  font-weight: 600;
+}
+
+.comentario{
+  margin-top: 15px;
+}
+
+.comentario textarea{
+  
+  margin-top: 10px;
+  width: 200px;
+  height: 100px;
+}
+.comentario label{
+
+  font-weight: 600;
+}
+
+
+.buttons button{
+  height: 25px;
+  width: 30%;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(81, 81, 245);
+  border-radius: 5px;
+}
+
+h6{
+  margin-top: 0px;
+  color: red;
+}
